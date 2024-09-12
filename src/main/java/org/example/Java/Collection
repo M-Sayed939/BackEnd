@@ -1,0 +1,18 @@
+Java Collection Framework Hierarchy:
+
+- Interface Iterable
+  - Interface Collection extends Iterable
+    - Interface List extends Collection
+      - Class ArrayList implements List
+      - Class LinkedList implements List
+      - Class Vector implements List
+        - Class Stack extends Vector
+    - Interface Queue extends Collection
+      - Class PriorityQueue implements Queue
+      - Interface Deque extends Queue
+        - Class ArrayDeque implements Deque
+    - Interface Set extends Collection
+      - Class HashSet implements Set
+        - Class LinkedHashSet extends HashSet
+      - Interface SortedSet extends Set
+        - Class TreeSet implements SortedSet

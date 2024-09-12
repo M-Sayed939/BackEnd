@@ -1,0 +1,28 @@
+Comparison       | for loop                                         | while loop                                      | do-while loop
+--------------------------------------------------------------------------------------------------------------
+Introduction     | The Java for loop is a control flow              | The Java while loop is a control flow           | The Java do-while loop is a control flow
+                 | statement that iterates a part of the            | statement that executes a part of the           | statement that executes a part of the
+                 | programs multiple times.                         | programs repeatedly on the basis of             | programs at least once and the further
+                 |                                                  | a given boolean condition.                      | execution depends upon the given
+                                                                                                                       boolean condition.
+--------------------------------------------------------------------------------------------------------------
+When to use      | If the number of iteration is fixed,             | If the number of iteration is not fixed,        | If the number of iteration is not fixed and
+                 | it is recommended to use a for loop.             | it is recommended to use a while loop.          | you must have to execute the loop at least
+                                                                                                                        once, it is recommended to use the
+                                                                                                                        do-while loop.
+--------------------------------------------------------------------------------------------------------------
+Syntax           | for(init; condition; incr/decr) {                | while(condition) {                              | do {
+                 |    // code to be executed                        |    // code to be executed                       |    // code to be executed
+                 | }                                                | }                                               | } while(condition);
+--------------------------------------------------------------------------------------------------------------
+Example          | // for loop                                      | // while loop                                   | // do-while loop
+                 | for(int i = 1; i <= 10; i++) {                   | int i = 1;                                      | int i = 1;
+                 |    System.out.println(i);                        | while(i <= 10) {                                | do {
+                 | }                                                |    System.out.println(i);                       |    System.out.println(i);
+                 |                                                  |    i++;                                         |    i++;
+                 |                                                  | }                                               | } while(i <= 10);
+--------------------------------------------------------------------------------------------------------------
+Syntax for       | for(;;) {                                        | while(true) {                                   | do {
+infinite loop    |    // code to be executed                        |    // code to be executed                       |    // code to be executed
+                 | }                                                | }                                               | } while(true);
+--------------------------------------------------------------------------------------------------------------

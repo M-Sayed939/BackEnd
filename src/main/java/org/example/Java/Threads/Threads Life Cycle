@@ -1,0 +1,18 @@
+Thread Lifecycle:
+
+1. New
+   - Transition: start() -> Runnable
+
+2. Runnable
+   - Transition: run() -> Running
+   - Transition: stop() -> Dead
+
+3. Running
+   - Transition: sleep() -> Blocked
+   - Transition: end of execution -> Dead
+   - Transition: stop() -> Dead
+
+4. Blocked
+   - Transition: stop() -> Dead
+
+5. Dead
