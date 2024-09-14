@@ -1,0 +1,12 @@
+| Aspect                    | SQL Databases                                             | No-SQL Databases                                          |                         |
+|---------------------------|-----------------------------------------------------------|-----------------------------------------------------------|
+| Definition                | Relational database management system                     | Non-relational or distributed database management system  |
+| Query Language            | Structured query language                                 | Non-declarative query language                            |
+| Schema                    | Predefined, fixed, and static                             | Dynamic schema for unstructured data                      |
+| Scalability               | Vertically scalable                                       | Horizontally scalable                                     |
+| Data Storage              | Tables (rows and columns)                                 | Documents, key-value pairs, and graphs                    |
+| Model                     | Follows the ACID model                                    | Follows the BASE model                                    |
+| Complex Queries           | Easily managed                                            | Not easily managed                                        |
+| Hierarchical Data         | Not the best choice                                       | Perfect for storing hierarchical data                     |
+| Object-Relational Mapping | Required for all SQL databases                            | Not required for many No-SQL databases                    |
+| Examples                  | SQLite, Ms-SQL, Oracle, PostgreSQL, MySQL                 | Redis, MongoDB, Hbase, BigTable, CouchDB, Cassandra       |
